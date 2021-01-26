@@ -1,701 +1,821 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-graph <http://www.researchspace.org/philosophers/graph>  {
 
+GRAPH  <http://www.researchspace.org/philosophers/graph> {}
 
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/birth/bba2fb42-1220-4957-9872-305fcfecccbd>
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/death/time/2bb4572d-de78-4c15-833f-d3cf1ad7feba>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1945-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/birth/time/97ccf900-6c68-4ead-83b5-39458a73cbe1>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1810-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/birth/3de58691-472b-4762-bfdb-41300e213e5a>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/birth/time/58ee9bc5-b170-4ebc-b04e-bf419da222af> ;
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/birth/time/0a1d50ad-b920-4a5b-9315-7f9598003496> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/placebirth/915c28af-d2f0-43c6-ac75-236ee11cd11d> .
-
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/appellation/5d4ade8f-bacf-434f-a7df-c4a0be6394df>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Grigore Tăușan" .
-
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/birth/time/6b5af9fb-7c84-4335-a724-20adf427ba37>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1874-01-24T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/4e75b064-ab00-443c-9a5d-8f3f19793d05>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1919-01-01T00:00:00"^^xsd:dateTime .
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/placebirth/f9b8ca81-1fcb-4649-a742-5fcd3d664bef> .
 
 <http://commons.wikimedia.org/wiki/Special:FilePath/Al.%20Claudian.jpg>
         a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/14fe959d-fbad-4992-b87d-57d3c68e9843>
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/5749329d-2797-4914-a9ec-f0de7a22f548>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/482d6292-c125-4d31-8512-6337a48dd94a> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placedeath/abcfbedf-cb29-40b8-ba4c-7b4c02bf612d> .
+
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/death/time/3308246f-04dd-4bad-a36c-a306dd5a63bc>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1978-01-01T00:00:00"^^xsd:dateTime .
+                "1962-10-16T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Gheorghe Enescu" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/death/63e415c0-e827-4430-9425-770815309181> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/group/8afdda7a-0c88-41c5-b837-e45f4b22ed4b> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/appellation/fc79dd4f-b6a1-4bb6-acb6-ea1752b105f0> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/birth/f47e5818-d6fd-446b-ad90-014b8b9bf925> .
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/birth/time/a620a9e7-cdfb-4239-8295-80644b5dfce5>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1945-08-29T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d>
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/death/d98b4f01-eea3-4726-96b1-6c6d9c007f37>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/death/time/3308246f-04dd-4bad-a36c-a306dd5a63bc> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/placedeath/b10d65b3-0476-44e9-8601-868f478cc864> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/d32deeeb-d72c-4d28-bdfb-292b5ee473ff>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1919-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/28e5f5e6-abe4-4481-9cfa-7841d86db6dc>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/d32deeeb-d72c-4d28-bdfb-292b5ee473ff> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placebirth/3f028265-eb79-498b-b6b6-e104213aba56> .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7>
         a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Ioan Zalomit" ;
         <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/death/0e098f61-096e-4658-8d6a-cf7a015dbf6d> ;
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/death/7089f586-b74e-4101-9616-e36e5fee7636> ;
         <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/group/f8a0f485-3a8c-41d2-81c9-b67f4e516e94> ;
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/group/3b1985a3-7666-4f1f-96f9-af64ccbbed74> ;
         <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/appellation/a8febf7b-19b1-4e24-97eb-ac2e87728f50> ;
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/appellation/293fc68f-d43e-4f8d-a8cc-31574e0a24c4> ;
         <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/birth/a4564e0b-004a-46fd-9545-7f96c81516d3> .
-
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/birth/time/9b4f8f08-2335-4f1a-8252-a9c243f0c134>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1918-06-18T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/birth/512fc9ba-58fc-47b2-90dd-df4a540a39d8>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/birth/time/ffc06962-d27b-4abe-9fc3-6eb978fbe77e> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/placebirth/3d597604-d8c3-4ba6-81a1-71d7e2cbe015> .
-
-<http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/birth/time/d9399341-403c-4826-8044-a65ffdcfb7b0>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1953-08-18T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/death/time/e70a4819-67c4-4965-8a51-9cbe857024c3>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1923-04-16T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/appellation/a8febf7b-19b1-4e24-97eb-ac2e87728f50>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Ioan Zalomit" .
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/birth/df3f2955-95ad-4d75-8ec3-4da0e9127c00> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/nationality/9a8d08d6-fa5b-423d-8180-a72a452fe4d2> .
 
 <http://commons.wikimedia.org/wiki/Special:FilePath/Stefan-Zeletin.jpg>
         a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
 
-<http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg>
-        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/nationality/9b44a066-596c-4953-a5c3-780e3babd756>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
-                "Octavian Buhociu" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/24d98f4d-c922-4d60-a74d-aa44b45bece5> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/6c400acb-2bd3-41ae-9ab9-aaa083ca25ab> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/a0416356-9e8c-4eff-ace9-5a2d880411cf> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/bcd4dc99-0dfa-4063-b8cf-2ea0901691f5> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/group/8d4c23a6-ddf2-4c3d-bfd8-2540dd9e4de3> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/group/360eb42b-9a4d-45ba-a4ba-98a15190573d> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/group/8cb93bca-25d0-41f1-8c13-43ea0c333891> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/group/6d7f3b21-3ca9-4fce-bcdd-2151a51251b2> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/3af15fbf-b0be-4084-95ea-7050d16cc34a> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/906867b4-9373-447b-97b6-09839109ffdb> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/b4681cea-dfec-4b40-b398-3254c909b1a3> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/a40a70b0-7d8b-4bc6-9cc6-1394ac3faa8c> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/f12359c9-9773-4c87-a901-e4e7fb3c10c6> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/9fcd1b9f-2a9f-498b-8ce9-9deee9c6246b> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/241899eb-2a1b-4c0c-8bce-94da13fb2127> , <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/92036d68-66a8-438b-8af9-0d3b2096aff6> .
+                "Romanian" .
 
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/birth/time/59a9d97f-df00-4ff2-88e7-30f08076e946>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1903-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/birth/aaa52c30-dcb3-40b4-9e6a-38b87c4d7f60>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/birth/time/9b4f8f08-2335-4f1a-8252-a9c243f0c134> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/placebirth/87f706f9-d191-402c-997f-0016a1d0308c> .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/death/f13ec4f4-7ce1-4e54-8bf1-6d5491b5936c>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/death/time/b55bd7bd-81d0-437b-8eec-44f76986ef90> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/placedeath/e32f2ad2-4b2c-4a3c-af87-5527f340169b> .
-
-<http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/birth/time/c5f554a2-669e-4ac8-9f01-6659f2354f69>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1944-01-23T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/death/ad56fea7-d7a0-40f3-8306-35a663c44587>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/death/time/ae5b13cc-6fa1-4ea0-9faf-a0f1f4fdce24> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/placedeath/9ef63535-656a-4f5c-a228-40de6b2b97f2> .
-
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/appellation/73fa2a12-707a-412f-9f01-f8cb457b13b9>
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/appellation/2dfec0fb-bbd3-41a0-8f57-5a8092a3d114>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
         <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Dimitrie Drăghicescu" .
+                "Grigore Tăușan" .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/785fdc13-ca85-403f-b2d2-d96bf448b3a9>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1919-10-20T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/death/time/a4f09c2e-a0ef-4f6e-bd85-5573c2644937>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1934-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/birth/ffa4fe0d-0655-462a-ac59-caba5fdeb5e4>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/birth/time/59a9d97f-df00-4ff2-88e7-30f08076e946> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/placebirth/27e205e3-be58-4d59-8a87-2d799b8a7504> .
-
-<http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Corneliu Mircea" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/death/b661fac1-20eb-40a9-a0fc-d6e8c4af9be4> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/group/cff64c21-4747-4076-a41f-d013d3e5050c> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/appellation/41b517a0-6503-4a58-874a-823ea798026c> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/birth/6f53606f-3ecd-4cf3-9f72-3a1c815ab481> ;
-        <http://www.researchspace.org/ontology/PX_has_main_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg> .
-
-<http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/death/84b2e9fc-fb49-4b5c-a389-1fd54e5d9bba>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/death/time/cb67b933-87d9-4a30-9693-b86c5baee446> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/placedeath/9bf916ee-8478-4057-b36d-bc7144059c22> .
-
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/death/time/fd0c5e14-aa50-447c-8bc5-37470a765d52>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1976-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/death/04acdeda-e15d-4cf5-a7f1-76746beb75f8>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/death/time/1189062e-be98-48bc-adc9-616b0f00048e> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/placedeath/e7b34c59-d290-460b-a6ce-af74e5ffe1ba> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/bcd4dc99-0dfa-4063-b8cf-2ea0901691f5>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/fa587941-38ac-4709-8119-5e13b38ace98> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placedeath/96fe5f19-86a4-4fc1-a8c2-3083691d29f7> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/6c400acb-2bd3-41ae-9ab9-aaa083ca25ab>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/14fe959d-fbad-4992-b87d-57d3c68e9843> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placedeath/8e8e3810-0cd2-4c86-82cc-e7b84a77e87b> .
-
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/appellation/5b64f28c-4f94-43fe-ae9f-eddb5b7b13ec>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Sorin Vieru" .
-
-<http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/birth/d99b6a58-0bc6-415c-b2e4-584854fdb913>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/birth/time/d9399341-403c-4826-8044-a65ffdcfb7b0> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/placebirth/26f68f97-2f86-4d17-bb0a-02d8fd5f66d6> .
-
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/death/68dfe4fd-9467-42a3-9f50-4e5cf75d0c6e>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/death/time/e70a4819-67c4-4965-8a51-9cbe857024c3> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/placedeath/b1953501-ad81-4d2b-afca-3c773f1bb73f> .
-
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Ștefan Zeletin" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/death/49329338-7eda-4f7c-b81b-c2e632d2bd0a> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/group/de55ce81-f7ad-448c-80a9-471deb322897> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Stefan-Zeletin.jpg> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/appellation/6c803246-0515-426f-9c35-af0d220c3084> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/birth/d1a59855-a4f3-41ca-a9e1-6f26243dc272> ;
-        <http://www.researchspace.org/ontology/PX_has_main_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Stefan-Zeletin.jpg> .
-
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/birth/807da50b-1de0-44ab-97f6-ce7a6306ce19>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/birth/time/6b5af9fb-7c84-4335-a724-20adf427ba37> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/placebirth/528d6c8e-5c04-4763-9c72-cd84d0b6eef7> .
-
-<http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/birth/47b80cb4-ddc5-474b-ac11-e3bde79f4893>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/birth/time/b376677f-9ab3-47fb-8cdd-5bd972948041> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/placebirth/ea4ae6d3-a5ef-41be-97a3-ba842fddee5d> .
-
-<http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/death/b661fac1-20eb-40a9-a0fc-d6e8c4af9be4>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/death/time/0e19090a-132c-4a55-b7bf-4a0db1d2724b> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/placedeath/12e0d73b-c59f-4c61-b493-a56dbe196c0c> .
-
-<http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/appellation/41b517a0-6503-4a58-874a-823ea798026c>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Corneliu Mircea" .
-
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/appellation/e043b7a6-fa4a-4e50-9bfd-75327202a687>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Stelian Mateescu" .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/906867b4-9373-447b-97b6-09839109ffdb>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Octavian Buhociu" .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/9fcd1b9f-2a9f-498b-8ce9-9deee9c6246b>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/384cb893-9924-4ae3-9663-100f93c039ba> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placebirth/aa84428f-253a-44fc-ba71-02b922058959> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/f12359c9-9773-4c87-a901-e4e7fb3c10c6>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/4e75b064-ab00-443c-9a5d-8f3f19793d05> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placebirth/33b3fcda-adbc-41d6-8db2-6a2456e02b3d> .
-
-<http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/appellation/12626202-6022-4067-afe3-c2fd83da370c>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Eugen Munteanu" .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/3af15fbf-b0be-4084-95ea-7050d16cc34a>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Octavian Buhociu" .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/appellation/1b18bd7b-7e0e-4b4b-b359-21c756d87481>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Alexandru Claudian" .
-
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/appellation/6c803246-0515-426f-9c35-af0d220c3084>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Ștefan Zeletin" .
-
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/death/1bbcaa18-9ca8-442b-a06a-932343670d3a>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/death/time/e597f3c4-f04e-4f2e-aab3-cba824dd0648> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/placedeath/00d75c7a-dc05-41cd-9e9f-b2b185b93aee> .
-
-<http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/death/65024052-688a-4662-a95c-0c03bc3804af>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/death/time/341af62e-44cb-4749-94a3-f7cec720124e> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/placedeath/3815a55e-9625-4bbb-a135-4b70e4abc954> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/a0416356-9e8c-4eff-ace9-5a2d880411cf>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/1037815b-e63c-49dd-9ec0-8fccfe547642> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placedeath/a5d5dcc9-d772-4cfc-a4c6-ce9696a79741> .
-
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/death/4d926ae5-0d3c-458e-95bb-2947efe818c7>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/death/time/ca3501ba-a59d-4505-a139-eb7e9a2cacad> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/placedeath/84eead6f-21e3-44ee-9570-8f1f48b717e6> .
-
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Dimitrie Drăghicescu" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/death/1bbcaa18-9ca8-442b-a06a-932343670d3a> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/group/4544a65b-f410-45f4-80e5-130a0c70d87d> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/appellation/73fa2a12-707a-412f-9f01-f8cb457b13b9> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/birth/934c17af-8c4e-4801-815b-c6baf7bf7c31> .
-
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Constantin Dimitrescu-Iași" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/death/68dfe4fd-9467-42a3-9f50-4e5cf75d0c6e> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/group/b459e458-dbc4-4783-8223-2f3cc9e8c4d8> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/appellation/0c686789-c163-4108-97c3-f21ecbdc44f8> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/birth/c18852fc-70e0-4460-8ad2-88643db0306e> ;
-        <http://www.researchspace.org/ontology/PX_has_main_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg> .
-
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/death/time/1189062e-be98-48bc-adc9-616b0f00048e>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "2018-11-14T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/death/time/f9f90e39-6541-44e8-8fe3-71be8db81e2b>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "2010-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Carmen Cozma" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/death/ad56fea7-d7a0-40f3-8306-35a663c44587> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/group/98393b76-94f7-4ecf-b052-a1b05b6a959c> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/appellation/bc2d3de8-f77b-494c-bfcc-2dff7550b495> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/birth/512fc9ba-58fc-47b2-90dd-df4a540a39d8> .
-
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/appellation/0c686789-c163-4108-97c3-f21ecbdc44f8>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Constantin Dimitrescu-Iași" .
-
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Stelian Mateescu" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/death/2444f825-d8d1-41c0-8e11-e814c05eea14> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/group/c0fd8811-76e4-4e91-949f-705ba2b0d5c3> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/appellation/e043b7a6-fa4a-4e50-9bfd-75327202a687> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/birth/ffa4fe0d-0655-462a-ac59-caba5fdeb5e4> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/384cb893-9924-4ae3-9663-100f93c039ba>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1919-10-20T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/death/time/d16649f5-3d21-4af6-8be3-b566bc9fc28c>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1997-02-27T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/birth/934c17af-8c4e-4801-815b-c6baf7bf7c31>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/birth/time/3df31f34-aaff-42da-9570-67944c7417ea> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/placebirth/754a8dd2-c85e-4afa-84d5-739d74f5a2c1> .
-
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/birth/d1a59855-a4f3-41ca-a9e1-6f26243dc272>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/birth/time/d66c3ed3-a629-49bf-bb5e-d2fd38cf290c> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/placebirth/7dd7f4e4-852a-4cc0-b2c3-eb60dd23a402> .
-
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/death/0e098f61-096e-4658-8d6a-cf7a015dbf6d>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/death/time/50d9099b-d17e-4f67-aa7d-007d8b0f2e42> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/placedeath/95c951bd-78d6-41b0-a7f8-b8b17c024f73> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/b4681cea-dfec-4b40-b398-3254c909b1a3>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Octavian Buhociu" .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/birth/time/4a565e90-4ba8-490f-90a5-12cf036688a4>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1898-04-08T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/death/time/50d9099b-d17e-4f67-aa7d-007d8b0f2e42>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1885-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/death/49329338-7eda-4f7c-b81b-c2e632d2bd0a>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/death/time/a4f09c2e-a0ef-4f6e-bd85-5573c2644937> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/placedeath/18b792bc-066b-4ef2-b380-fa145b81d43b> .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/death/time/b55bd7bd-81d0-437b-8eec-44f76986ef90>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1962-10-16T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/birth/d45f257a-0e21-427d-bdf6-505b0808e8a4>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/birth/time/4a565e90-4ba8-490f-90a5-12cf036688a4> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/placebirth/bcc55238-bdac-42cf-8565-d01dbc7d948b> .
-
-<http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/appellation/bbf481ed-4f90-4465-b500-4b716d017284>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Constantin Schifirneț" .
-
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Leon Birnbaum" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/death/800ba889-a5e6-4099-ae1a-082dd9710dc7> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/group/398ff0ef-133a-4754-a0cc-8ef95441a186> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/appellation/92ece89c-5e91-4f30-9566-4d3c89cecab4> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/birth/aaa52c30-dcb3-40b4-9e6a-38b87c4d7f60> .
-
-<http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
-        <http://www.w3.org/2000/01/rdf-schema#label>
-                "Constantin Schifirneț" ;
-        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/death/65024052-688a-4662-a95c-0c03bc3804af> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/group/d818953e-7730-43d0-92a1-0b37ad50e564> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/appellation/bbf481ed-4f90-4465-b500-4b716d017284> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/birth/47b80cb4-ddc5-474b-ac11-e3bde79f4893> .
-
-<http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c>
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a>
         a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Alexandru Claudian" ;
         <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/death/f13ec4f4-7ce1-4e54-8bf1-6d5491b5936c> ;
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/death/d98b4f01-eea3-4726-96b1-6c6d9c007f37> ;
         <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/group/9aeae90c-3490-4502-967a-2f0ac793ab22> ;
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/group/74389223-d0c2-467b-9dfc-de2894055ad5> ;
         <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
                 <http://commons.wikimedia.org/wiki/Special:FilePath/Al.%20Claudian.jpg> ;
         <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/appellation/1b18bd7b-7e0e-4b4b-b359-21c756d87481> ;
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/appellation/1e642c98-f0f1-4806-865c-c9fd3e0312fb> ;
         <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/7f2fc3c8-50b9-441c-9c46-adc3a7b6748c/birth/d45f257a-0e21-427d-bdf6-505b0808e8a4> ;
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/birth/501e3560-c08b-4c8f-b462-2928a97e7295> ;
         <http://www.researchspace.org/ontology/PX_has_main_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Al.%20Claudian.jpg> .
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Al.%20Claudian.jpg> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/nationality/2d17f684-0fee-48ee-a521-485b82e1d245> .
 
-<http://www.researchspace.org/philosophers/ae967698-1bc9-447f-9086-54b47618600a/birth/time/d66c3ed3-a629-49bf-bb5e-d2fd38cf290c>
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/appellation/2568790e-1880-443a-9e72-061fb37c32bd>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Eugen Munteanu" .
+
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/death/1da566df-3e53-424e-8ff5-b9380566041c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/death/time/4d72c075-af05-418b-8903-9f080b33d2ad> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/placedeath/2315dac9-3d0d-4d74-ab50-f73c1fb9892f> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/1375715a-f829-4a68-8a14-dde0a090d5c6>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1882-01-01T00:00:00"^^xsd:dateTime .
+                "1978-09-11T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/birth/time/3df31f34-aaff-42da-9570-67944c7417ea>
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/death/time/ceba93f2-bef1-4ee3-91e7-4bc47aedf8b5>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1875-01-01T00:00:00"^^xsd:dateTime .
+                "1997-02-27T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/appellation/a40a70b0-7d8b-4bc6-9cc6-1394ac3faa8c>
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/d8f0476d-48bf-4609-a953-cbc8c5e256d9>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
         <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
                 "Octavian Buhociu" .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/24d98f4d-c922-4d60-a74d-aa44b45bece5>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/d75f21ab-a85f-4a89-b0fe-77107c971b14> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placedeath/1c573e18-fb35-4044-8d64-34d958fb797a> .
-
-<http://www.researchspace.org/philosophers/ff0e1faf-e140-4c33-8423-5e698c2b9f7d/death/time/e597f3c4-f04e-4f2e-aab3-cba824dd0648>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1945-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/birth/6f53606f-3ecd-4cf3-9f72-3a1c815ab481>
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/birth/2ace286e-3fd3-4356-b1bc-0316d0879321>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/birth/time/c5f554a2-669e-4ac8-9f01-6659f2354f69> ;
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/birth/time/34ede815-edcb-4898-ad18-860d6fe8f199> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/6dd480c0-6486-47ff-ab6d-7172caee45b8/placebirth/4d754efc-db89-4045-923d-befeb305e7f7> .
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/placebirth/59752d2c-20bc-45c4-897d-82c4fbb58aa6> .
 
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/birth/time/58ee9bc5-b170-4ebc-b04e-bf419da222af>
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/appellation/32b37d7a-a034-49cc-8863-762e695d3562>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Constantin Dimitrescu-Iași" .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/30c6a7e3-53b3-4fdd-83b4-5eef93ff3d50>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/8a11fb99-23ee-4f97-b0e9-4fcd7cb36c69> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placebirth/38bc6f88-69f5-4f5b-8024-e679d7eeb176> .
+
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/death/14bec98f-a188-4c6e-9179-a33ea2e8a17d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/death/time/fa4e618d-62ca-4d7b-91d4-7b8fc3523a3c> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/placedeath/eba0f07f-cbe9-4dc2-813e-80866add8abb> .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/birth/time/497bb26f-415b-4e4c-94e3-4dc41adcd762>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1849-02-25T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/death/3cc9fcd2-e808-46e7-9f86-cd826c0edbee>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/death/time/44e21fdd-fb96-4244-a404-7a34b7ba2d9e> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/placedeath/b5a40e5a-4ab3-440e-ab1f-dfb6df8c4942> .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/death/time/8dfbe000-a22d-484a-b870-eacf3e5eaac3>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2010-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/birth/9cfb0f9b-571f-4015-8d73-1011836cfb62>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/birth/time/fa374f06-690a-47bf-ac49-01b4b4a67b78> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/placebirth/db893e00-8f4a-4175-acbf-f25b0f763ba9> .
+
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/appellation/362f7427-a7b2-4387-81df-e5b3e70cbade>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Sorin Vieru" .
+
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Stelian Mateescu" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/death/9a451016-9fe3-4269-9a59-3edad3ea649f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/group/c8d35a8e-e7e5-4728-9cc4-4c6726be67d7> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/appellation/8025904a-c7e2-409c-a702-ab6c19a1035d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/birth/be498efe-73ae-4a88-8fb1-fe8374566bbf> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/nationality/1f6a3724-7cac-47d4-aeed-fec840d3c437> .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/death/time/5d70fe7f-584b-4ff1-9b89-3fdfcf0ec523>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
                 "1934-01-01T00:00:00"^^xsd:dateTime .
 
-<http://commons.wikimedia.org/wiki/Special:FilePath/Munteanu%20public2.JPG>
-        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
-
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/d75f21ab-a85f-4a89-b0fe-77107c971b14>
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/birth/time/23110ee9-ae07-40c6-b755-604f519da2bc>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1978-09-11T00:00:00"^^xsd:dateTime .
+                "1934-01-01T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/death/800ba889-a5e6-4099-ae1a-082dd9710dc7>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/death/time/f9f90e39-6541-44e8-8fe3-71be8db81e2b> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/placedeath/ec44222b-5c3c-4192-98b4-513581ee2252> .
-
-<http://www.researchspace.org/philosophers/0b24eca1-3fdd-4ff7-8a71-6891a7966f25/appellation/bc2d3de8-f77b-494c-bfcc-2dff7550b495>
+<http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/appellation/812d9d6d-9bc9-478f-93bc-49ff61e9c803>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
         <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
                 "Carmen Cozma" .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/1037815b-e63c-49dd-9ec0-8fccfe547642>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1978-01-01T00:00:00"^^xsd:dateTime .
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/fda2105f-c744-4801-99ce-02ad5ac7384e>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Octavian Buhociu" .
 
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/birth/time/30b9d2e6-090f-412e-a899-c59e337f31a4>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1810-01-01T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/death/2444f825-d8d1-41c0-8e11-e814c05eea14>
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/death/9a451016-9fe3-4269-9a59-3edad3ea649f>
         a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/death/time/fd0c5e14-aa50-447c-8bc5-37470a765d52> ;
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/death/time/1377a31c-e058-45d5-bfec-7a7f53d587b0> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/b32758fb-d30d-492e-9ca6-ec8b6e0d8ec8/placedeath/f7d4ca2c-c27e-4c1b-bf3b-5adccdb07409> .
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/placedeath/14c6287a-49da-4167-998d-0bebd07ec98f> .
 
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/birth/time/9f62d994-3916-4f8f-8153-ca4e140b8a4e>
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/death/time/d67bdb57-fd69-48d8-b0ea-6da5280b6fa2>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1849-02-25T00:00:00"^^xsd:dateTime .
+                "2018-11-14T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/birth/c18852fc-70e0-4460-8ad2-88643db0306e>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/death/eedd8ca1-6388-45ca-be0c-2d169412046d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/birth/time/9f62d994-3916-4f8f-8153-ca4e140b8a4e> ;
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/death/time/ceba93f2-bef1-4ee3-91e7-4bc47aedf8b5> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/ecf97f6f-d097-441e-9828-0bf455924d8d/placebirth/cca59717-99e5-404f-b3b3-78de111ed8e9> .
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/placedeath/d8ff1f6e-fbbc-4d8d-a7d0-5ff47b8de8ef> .
 
-<http://www.researchspace.org/philosophers/33880576-0c75-4216-bd66-be808e652b00/birth/time/b376677f-9ab3-47fb-8cdd-5bd972948041>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1945-08-29T00:00:00"^^xsd:dateTime .
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/nationality/3868f2a1-7674-463a-a6f8-b51ad4fc660b>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
 
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/birth/time/3b6ba3d3-3a20-4982-9128-380bc83e9d93>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1932-01-07T00:00:00"^^xsd:dateTime .
-
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/birth/f47e5818-d6fd-446b-ad90-014b8b9bf925>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/birth/time/3b6ba3d3-3a20-4982-9128-380bc83e9d93> ;
-        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/placebirth/e2691286-b95b-4e8f-9a0c-553382c827a8> .
-
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/death/time/ca3501ba-a59d-4505-a139-eb7e9a2cacad>
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/death/time/9e247813-f20b-4a4e-aadb-e639989bcd34>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
                 "1952-04-20T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/death/63e415c0-e827-4430-9425-770815309181>
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/nationality/f3269464-c0b8-46ce-9ab5-30912f674d38>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/birth/time/5a272c08-04fe-492e-88c6-d899e9f8d68c>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1874-01-24T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/birth/time/2dfcc98c-9be1-439f-9b03-267b78b7a801>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1932-01-07T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/death/time/1e72d90b-f677-485a-a164-d338de3c2863>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1923-04-16T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/birth/be498efe-73ae-4a88-8fb1-fe8374566bbf>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/birth/time/ad67135c-5cef-4002-859c-37a93c183c64> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/placebirth/671c075a-ba98-4857-a512-7e49cf0d230d> .
+
+<http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/nationality/ba1a6e53-4c83-473b-b766-de8169b1118c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/death/498f3e29-adc6-4499-90f5-d0d96cce9ee0>
         a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/death/time/d16649f5-3d21-4af6-8be3-b566bc9fc28c> ;
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/death/time/ed025b38-e20e-471a-bbc0-52854b5e3d63> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/placedeath/abcd109b-b0bf-4ebf-aca4-9d360b62a63d> .
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/placedeath/efc2a33f-f8d8-49bd-a3c0-0133eff7aa21> .
 
-<http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef>
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/nationality/2d17f684-0fee-48ee-a521-485b82e1d245>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/b5be8d2a-25ed-445b-ac7b-240fb2848834>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/1375715a-f829-4a68-8a14-dde0a090d5c6> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placedeath/9643c354-a660-4eab-973a-84d6e1111786> .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/birth/bb6eed1c-e82e-48cd-8703-69533c741870>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/birth/time/497bb26f-415b-4e4c-94e3-4dc41adcd762> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/placebirth/51b6db25-463b-4689-b4cd-7ef822aed7dc> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/6546e354-f68f-4584-b9b9-23c546070b1f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/59ece5df-f32b-4d47-ba9d-c9802cf02819> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placebirth/72a30bd3-dfde-4927-996a-e817c2a7a005> .
+
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/birth/ea5e5147-91a2-4e6b-9469-de95ad880b97>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/birth/time/dfb34d31-5537-4bc0-869f-5f21e4f8fd0a> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/placebirth/ea9724e9-0d86-482e-8888-f481e8f0d982> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/482d6292-c125-4d31-8512-6337a48dd94a>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1978-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/appellation/4af5e7aa-a29a-4339-b930-75965d0a6def>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Constantin Schifirneț" .
+
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/death/time/1377a31c-e058-45d5-bfec-7a7f53d587b0>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1976-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6>
         a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Sorin Vieru" ;
         <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/death/04acdeda-e15d-4cf5-a7f1-76746beb75f8> ;
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/death/dfc2ccc8-fd29-4ff2-a907-b14399a0fb25> ;
         <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/group/c6dbbdef-9fa1-46b8-a403-04e9e7214e36> ;
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/group/7a75f80b-62bd-498e-9b9e-7032744d9be6> ;
         <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/appellation/5b64f28c-4f94-43fe-ae9f-eddb5b7b13ec> ;
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/appellation/362f7427-a7b2-4387-81df-e5b3e70cbade> ;
         <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/30ecd7f7-3508-4400-8731-04dfe6850aef/birth/bba2fb42-1220-4957-9872-305fcfecccbd> .
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/birth/be70a44d-002f-4796-b1e5-c167e0e23704> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/nationality/18f3ecb6-d1a4-4cae-91ff-545d8989e0d1> .
 
-<http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/birth/a4564e0b-004a-46fd-9545-7f96c81516d3>
-        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/7556d5d1-0967-4f17-809a-d7e97f025c20>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/birth/time/30b9d2e6-090f-412e-a899-c59e337f31a4> ;
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/3c6f105a-fa68-4438-bf72-58d4041e89da> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/3ea2bd08-b16c-4baa-918d-09a1414e9d5d/placebirth/650b22b1-bf99-4774-9dbc-01e777b3815a> .
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placedeath/08c138d9-cb82-474b-b3a0-3b3c3491fda5> .
 
-<http://www.researchspace.org/philosophers/dd96c3a8-6919-40f3-b24f-4bfa41384def/appellation/92ece89c-5e91-4f30-9566-4d3c89cecab4>
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/90c1a40c-4d1e-4cf8-b79c-d4d232f37954>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Gheorghe Enescu" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/death/eedd8ca1-6388-45ca-be0c-2d169412046d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/group/889553c6-31ee-434c-a945-7c0d37c5e14b> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/appellation/76c4e44c-f388-4c19-8f3d-b8f3c36c9235> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/birth/53580045-f04f-4bf5-a391-6dff6e3c2f33> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/nationality/3868f2a1-7674-463a-a6f8-b51ad4fc660b> .
+
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/appellation/1e642c98-f0f1-4806-865c-c9fd3e0312fb>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
         <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Leon Birnbaum" .
+                "Alexandru Claudian" .
 
-<http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg>
-        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/death/7089f586-b74e-4101-9616-e36e5fee7636>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/death/time/ced93b11-d109-43c6-a9f9-06f3459c7d19> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/placedeath/41bddcfc-e18e-47dc-9175-a9affe5362a1> .
 
-<http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2>
+<http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Carmen Cozma" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/death/498f3e29-adc6-4499-90f5-d0d96cce9ee0> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/group/47c02527-9318-4e1c-8ee9-4e5130fc3c55> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/appellation/812d9d6d-9bc9-478f-93bc-49ff61e9c803> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/birth/9cfb0f9b-571f-4015-8d73-1011836cfb62> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/bb1802c7-8318-469e-9e70-aaf806a35db8/nationality/ba1a6e53-4c83-473b-b766-de8169b1118c> .
+
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35>
         a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Eugen Munteanu" ;
         <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/death/84b2e9fc-fb49-4b5c-a389-1fd54e5d9bba> ;
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/death/14bec98f-a188-4c6e-9179-a33ea2e8a17d> ;
         <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/group/ec3aa51b-12f0-4f73-ab51-f6dc71edb58c> ;
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/group/a1eb11a5-d6d7-4540-acc5-6431dc235e24> ;
         <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
                 <http://commons.wikimedia.org/wiki/Special:FilePath/Munteanu%20public2.JPG> ;
         <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/appellation/12626202-6022-4067-afe3-c2fd83da370c> ;
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/appellation/2568790e-1880-443a-9e72-061fb37c32bd> ;
         <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/0dd19364-79e1-43f0-8cca-4d7f5e7bfeb2/birth/d99b6a58-0bc6-415c-b2e4-584854fdb913> ;
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/birth/ea5e5147-91a2-4e6b-9469-de95ad880b97> ;
         <http://www.researchspace.org/ontology/PX_has_main_representation>
-                <http://commons.wikimedia.org/wiki/Special:FilePath/Munteanu%20public2.JPG> .
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Munteanu%20public2.JPG> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/nationality/76fc1a4d-0b4b-4e07-8dfd-5cf4cc3b6ee0> .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/death/time/fa587941-38ac-4709-8119-5e13b38ace98>
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/01fcc043-c6d0-409b-91be-8967adc2479d>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
                 "1978-09-11T00:00:00"^^xsd:dateTime .
 
-<http://www.researchspace.org/philosophers/2490557f-bc8c-47f5-982b-a29a8300a6d0/appellation/fc79dd4f-b6a1-4bb6-acb6-ea1752b105f0>
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Octavian Buhociu" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/b5be8d2a-25ed-445b-ac7b-240fb2848834> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/aeaad331-16af-4742-aee4-7500710b451c> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/7556d5d1-0967-4f17-809a-d7e97f025c20> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/5749329d-2797-4914-a9ec-f0de7a22f548> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/group/9884c094-ea6c-400f-a63e-121afcd7b15b> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/group/d3e785a8-4524-428b-af9e-6609431924e4> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/group/d9fdf821-09db-4314-b34f-67a864399ebb> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/group/872641a3-dd1a-4652-bab4-8f8c4df4b545> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/fda2105f-c744-4801-99ce-02ad5ac7384e> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/98ca3592-3f5b-4e84-b251-509c51ca8397> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/d8f0476d-48bf-4609-a953-cbc8c5e256d9> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/c104f260-e54e-4f70-b6bd-395578e27ca4> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/30c6a7e3-53b3-4fdd-83b4-5eef93ff3d50> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/83c6579f-76ee-45ab-965f-6e697a56355a> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/28e5f5e6-abe4-4481-9cfa-7841d86db6dc> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/6546e354-f68f-4584-b9b9-23c546070b1f> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/b8ac92cc-342f-4fe4-9e61-9f4a4ab59892> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/010ab31f-efea-4d7f-a151-f6543e381ad9> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/90c1a40c-4d1e-4cf8-b79c-d4d232f37954> , <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/19cb392d-9e2f-43cb-a7b2-27a73712333c> .
+
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/appellation/5f3f251d-dd71-4b48-93af-c9cb94342973>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
         <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
-                "Gheorghe Enescu" .
+                "Dimitrie Drăghicescu" .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/92036d68-66a8-438b-8af9-0d3b2096aff6>
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/birth/time/f3d0e8c2-5847-4ce7-afa5-f926a3171c9c>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1882-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Dimitrie Drăghicescu" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/death/ab795ded-da55-4d9e-a68b-e696448307ca> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/group/a73c025d-55e8-4692-8286-553c29ed982f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/appellation/5f3f251d-dd71-4b48-93af-c9cb94342973> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/birth/3de58691-472b-4762-bfdb-41300e213e5a> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/nationality/9b44a066-596c-4953-a5c3-780e3babd756> .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/birth/time/34ede815-edcb-4898-ad18-860d6fe8f199>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1918-06-18T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/birth/5e1a2c90-2744-4a88-8018-214598c71ae3>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/785fdc13-ca85-403f-b2d2-d96bf448b3a9> ;
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/birth/time/f3d0e8c2-5847-4ce7-afa5-f926a3171c9c> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placebirth/8bc71478-3c55-4587-bc8b-f2d3c81058a5> .
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/placebirth/e5cbbce6-bf57-4fe8-a29e-c4cef8885c81> .
 
-<http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce>
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/nationality/1f6a3724-7cac-47d4-aeed-fec840d3c437>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/nationality/65a01698-f8ba-4905-9e33-c0b38af8c9b7>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/birth/be70a44d-002f-4796-b1e5-c167e0e23704>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/birth/time/23110ee9-ae07-40c6-b755-604f519da2bc> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/placebirth/5f25ea04-c8df-4099-a1ae-b47b91f9d62c> .
+
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/birth/b4081f4c-1b9c-4039-8ba3-c83d75a89946>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/birth/time/a620a9e7-cdfb-4239-8295-80644b5dfce5> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/placebirth/44bbe597-ab68-446c-b64c-cc9c455c4737> .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/birth/df3f2955-95ad-4d75-8ec3-4da0e9127c00>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/birth/time/97ccf900-6c68-4ead-83b5-39458a73cbe1> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/placebirth/aa4b12ea-3e8a-46cc-86bd-0e45e83a1e75> .
+
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/nationality/867ad73e-302c-4f5c-9bc4-1d8836ede2c9>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/nationality/da14abac-5380-4aa9-8c52-81d494508b1d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/death/98a122c5-1b14-470f-94fc-22d8f21a00a9>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/death/time/8dfbe000-a22d-484a-b870-eacf3e5eaac3> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/placedeath/fd43d0cb-f6d1-4434-bc90-c93af0b7ef12> .
+
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/death/dfc2ccc8-fd29-4ff2-a907-b14399a0fb25>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/death/time/d67bdb57-fd69-48d8-b0ea-6da5280b6fa2> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/placedeath/154fb397-8041-4cd5-a92a-f7874ce252c7> .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Corneliu Mircea" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/death/3cc9fcd2-e808-46e7-9f86-cd826c0edbee> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/group/013b0475-6a1f-4f95-a3c6-7dcd9ad5303c> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/appellation/a6c34033-330b-4e99-b371-7ea6091ae5ef> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/birth/51ab3c85-dc86-4f4a-af02-c1b16c45dc6f> ;
+        <http://www.researchspace.org/ontology/PX_has_main_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/nationality/da14abac-5380-4aa9-8c52-81d494508b1d> .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/nationality/1c397e30-fa5a-4963-9c42-4a93d145afab>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/appellation/a6c34033-330b-4e99-b371-7ea6091ae5ef>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Corneliu Mircea" .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Constantin Dimitrescu-Iași" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/death/8f2908b2-4336-4d02-982b-18dd53babe41> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/group/dd5ac22f-6cc1-4196-a98d-5b9ddccef7d2> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/appellation/32b37d7a-a034-49cc-8863-762e695d3562> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/birth/bb6eed1c-e82e-48cd-8703-69533c741870> ;
+        <http://www.researchspace.org/ontology/PX_has_main_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Constantin%20Dimitrescu-Iasi.jpg> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/nationality/65a01698-f8ba-4905-9e33-c0b38af8c9b7> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/19cb392d-9e2f-43cb-a7b2-27a73712333c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/59ece5df-f32b-4d47-ba9d-c9802cf02819>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1919-10-20T00:00:00"^^xsd:dateTime .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Munteanu%20public2.JPG>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/birth/time/4f46671a-ff4e-4792-8ec1-eb149ce82d30>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1898-04-08T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/nationality/3bde7650-918e-4fc9-8b51-99eb2ee59cd8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/birth/time/dfb34d31-5537-4bc0-869f-5f21e4f8fd0a>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1953-08-18T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/appellation/1209c912-e8c2-4171-812f-49a0839578ad>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Ștefan Zeletin" .
+
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/birth/time/0a1d50ad-b920-4a5b-9315-7f9598003496>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1875-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/98ca3592-3f5b-4e84-b251-509c51ca8397>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Octavian Buhociu" .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/nationality/9a8d08d6-fa5b-423d-8180-a72a452fe4d2>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Leon Birnbaum" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/death/98a122c5-1b14-470f-94fc-22d8f21a00a9> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/group/11697375-faac-4b22-a92a-baa520c0960f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/appellation/c4c7cba1-7e40-4de9-b0b4-a8c6d262aa9e> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/birth/2ace286e-3fd3-4356-b1bc-0316d0879321> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/nationality/3bde7650-918e-4fc9-8b51-99eb2ee59cd8> .
+
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/birth/time/ad67135c-5cef-4002-859c-37a93c183c64>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1903-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/25a88cf9-5b64-4366-be86-8dd56286ec2b>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1919-10-20T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/birth/501e3560-c08b-4c8f-b462-2928a97e7295>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/birth/time/4f46671a-ff4e-4792-8ec1-eb149ce82d30> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/3eae77bb-cb91-492e-b135-a4abce41e75a/placebirth/e731fed5-d678-4297-93c0-599d66f2ea1a> .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/birth/time/c84ab4b9-b4d2-4397-bc24-01feb8335a6b>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1944-01-23T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/birth/53580045-f04f-4bf5-a391-6dff6e3c2f33>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/birth/time/2dfcc98c-9be1-439f-9b03-267b78b7a801> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/placebirth/1cdcbc29-924f-44d5-a265-fffe4a531c91> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/8a11fb99-23ee-4f97-b0e9-4fcd7cb36c69>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1919-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/death/057672fe-b652-4bd1-a50d-593f6749fca8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/death/time/5d70fe7f-584b-4ff1-9b89-3fdfcf0ec523> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/placedeath/0ea2ed68-4c35-4492-aa59-bc1df4571d8f> .
+
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/birth/8d751b91-3a10-4944-bf6b-2f1014beb414>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/birth/time/5a272c08-04fe-492e-88c6-d899e9f8d68c> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/placebirth/5408a392-99e9-48aa-80a4-685787d9dca7> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/appellation/c104f260-e54e-4f70-b6bd-395578e27ca4>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Octavian Buhociu" .
+
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a>
         a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Grigore Tăușan" ;
         <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/death/4d926ae5-0d3c-458e-95bb-2947efe818c7> ;
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/death/29e51f90-3b23-469f-b53a-a8d64b2608ad> ;
         <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/group/778116cc-c33e-445a-b3f4-c27d6fc9c339> ;
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/group/db17128a-3f55-4f7b-86e9-7e638d091114> ;
         <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/appellation/5d4ade8f-bacf-434f-a7df-c4a0be6394df> ;
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/appellation/2dfec0fb-bbd3-41a0-8f57-5a8092a3d114> ;
         <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
-                <http://www.researchspace.org/philosophers/c0ac9c68-56a9-4291-9f95-77989f3f60ce/birth/807da50b-1de0-44ab-97f6-ce7a6306ce19> .
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/birth/8d751b91-3a10-4944-bf6b-2f1014beb414> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/nationality/f3269464-c0b8-46ce-9ab5-30912f674d38> .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/c7541c16-0782-47a4-946b-928444d3ed3d>
-        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
-                "1919-01-01T00:00:00"^^xsd:dateTime .
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/aeaad331-16af-4742-aee4-7500710b451c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/01fcc043-c6d0-409b-91be-8967adc2479d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placedeath/d7095add-b95d-43d3-9cf2-55ec0d75ed02> .
 
-<http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/241899eb-2a1b-4c0c-8bce-94da13fb2127>
+<http://www.researchspace.org/philosophers/6eb767e7-bc68-4a79-b5b2-8b9a0350fc35/nationality/76fc1a4d-0b4b-4e07-8dfd-5cf4cc3b6ee0>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/83c6579f-76ee-45ab-965f-6e697a56355a>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
         <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/birth/time/c7541c16-0782-47a4-946b-928444d3ed3d> ;
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/birth/time/25a88cf9-5b64-4366-be86-8dd56286ec2b> ;
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
-                <http://www.researchspace.org/philosophers/c7309bb9-ac6c-425f-b812-27f779b7ae38/placebirth/901fd180-00ff-4b1f-8e27-3c6c9ff62146> .
-          }
+                <http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/placebirth/8f218c60-7f0b-4682-8772-b61ecd37bf15> .
+
+<http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/death/29e51f90-3b23-469f-b53a-a8d64b2608ad>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/death/time/9e247813-f20b-4a4e-aadb-e639989bcd34> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/33027967-6b1c-49a7-b294-871ae83b5f6a/placedeath/c3b621ed-d785-4d1a-9fe6-2eba645e46ee> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/010ab31f-efea-4d7f-a151-f6543e381ad9>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/appellation/293fc68f-d43e-4f8d-a8cc-31574e0a24c4>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Ioan Zalomit" .
+
+<http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/death/ab795ded-da55-4d9e-a68b-e696448307ca>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/death/time/2bb4572d-de78-4c15-833f-d3cf1ad7feba> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/ef6e20ba-c262-49aa-b59e-bff432bca08c/placedeath/69f35793-073e-4332-bcef-07fe6725fefb> .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/death/time/3c6f105a-fa68-4438-bf72-58d4041e89da>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1978-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/b63feff3-df2d-4f1f-bfeb-093627e0519f/appellation/c4c7cba1-7e40-4de9-b0b4-a8c6d262aa9e>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Leon Birnbaum" .
+
+<http://www.researchspace.org/philosophers/083e213c-4ed8-4fc4-8179-c04f507a8ee1/nationality/b8ac92cc-342f-4fe4-9e61-9f4a4ab59892>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/ce5aee9d-346c-41b3-ac06-828f80d1a9c6/nationality/18f3ecb6-d1a4-4cae-91ff-545d8989e0d1>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romanian" .
+
+<http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/birth/51ab3c85-dc86-4f4a-af02-c1b16c45dc6f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/birth/time/c84ab4b9-b4d2-4397-bc24-01feb8335a6b> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/16d1a600-684f-41d5-be28-fcba20dcb019/placebirth/6e408d69-2075-4dbb-b46f-fd9a8c694d24> .
+
+<http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Constantin Schifirneț" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/death/1da566df-3e53-424e-8ff5-b9380566041c> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/group/edf40550-696d-4f5e-8b73-0291273fb7af> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/appellation/4af5e7aa-a29a-4339-b930-75965d0a6def> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/birth/b4081f4c-1b9c-4039-8ba3-c83d75a89946> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/0d106a4d-d975-42ef-83a9-3424c9b89f20/nationality/867ad73e-302c-4f5c-9bc4-1d8836ede2c9> .
+
+<http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/death/8f2908b2-4336-4d02-982b-18dd53babe41>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/death/time/1e72d90b-f677-485a-a164-d338de3c2863> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/philosophers/ae1297d6-efcc-4fc7-b3c0-4d47db250f35/placedeath/12d1ff2f-ee4e-4278-98fe-03ff5cfc8e49> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Corneliu%20Mircea.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ștefan Zeletin" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/death/057672fe-b652-4bd1-a50d-593f6749fca8> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/group/66214dd0-03b7-46e2-afce-d29191401051> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Stefan-Zeletin.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/appellation/1209c912-e8c2-4171-812f-49a0839578ad> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/birth/5e1a2c90-2744-4a88-8018-214598c71ae3> ;
+        <http://www.researchspace.org/ontology/PX_has_main_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Stefan-Zeletin.jpg> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/philosophers/f3a9e9cf-2b31-45c7-b586-d598839b3fad/nationality/1c397e30-fa5a-4963-9c42-4a93d145afab> .
+
+<http://www.researchspace.org/philosophers/f63f6743-c2f7-45f3-95fc-cd6cc674c0e7/death/time/ced93b11-d109-43c6-a9f9-06f3459c7d19>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1885-01-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/philosophers/1331f634-a496-48dc-86ec-74726c430027/appellation/8025904a-c7e2-409c-a702-ab6c19a1035d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Stelian Mateescu" .
+
+<http://www.researchspace.org/philosophers/9dad6311-d4da-42ed-929e-086da620590f/appellation/76c4e44c-f388-4c19-8f3d-b8f3c36c9235>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Gheorghe Enescu" .
+              }
