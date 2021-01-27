@@ -1,6 +1,6 @@
 @prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
 
-GRAPH  <http://www.researchspace.org/philosophers/graph> {
+GRAPH  <http://www.researchspace.org/architects/graph> {
 
 <http://www.researchspace.org/philosophers/af6c6b1f-dabd-4a38-b120-8ecace85c808/birth/d6cc9724-3de0-416f-b0e6-9a20fc7eb468>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
