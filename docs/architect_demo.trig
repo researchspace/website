@@ -1,0 +1,821 @@
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+
+
+<http://www.researchspace.org/architects/graph>  {
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/death/3bae1659-61d5-41b7-9dfa-658f97757d9f/death/time/f1583206-84fb-4319-837e-a90d8c995401>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1947-12-27T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jadwiga Dobrzyńska" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/death/7ad792af-54c0-487b-99f9-e194e9a0177b> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%AF%D0%B4%D0%B2%D1%96%D0%B3%D0%B0%20%D0%94%D0%BE%D0%B1%D0%B6%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%281898%E2%80%941940%29.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/appellation/b9dfc698-2df7-474a-a5bc-a02006cbf28d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/birth/b67fcbcd-b3eb-4767-9eb0-5369cdb36b3a> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/birth/3dc4e879-9de6-48cf-9e6e-d4de0a38aa74>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/birth/3dc4e879-9de6-48cf-9e6e-d4de0a38aa74/birth/time/01b56e2e-babd-4d62-a05b-0cd310af0e34> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Lublin> .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/death/b3d8887c-0763-4915-9bbd-eb2b34c7b351>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/death/b3d8887c-0763-4915-9bbd-eb2b34c7b351/death/time/6d7bc195-df21-4f4b-a16a-aaf21132af70> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Plovdiv> .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/birth/c79a0912-7043-425c-9407-f126ee62fb37/birth/time/34697bfb-62a7-4e5e-b486-2948edc26ec6>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1894-06-21T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/birth/49a276b8-7012-4cd6-a5dd-5ba8561e39e2/birth/time/c302565f-70a3-45b1-88d1-6ad84e82a1a7>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1907-05-10T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/appellation/b48d73a8-aa82-4682-b894-23776dce27c2>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Maria Jaworska-Michałowska" .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tamara Tselikovska" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/death/071b37e5-6083-4465-94f6-8a40f272dbc9> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A6%D0%B5%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%A2%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%20%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0%201996.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/appellation/0e0b4325-6b53-4c14-85be-8ea3068c079d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/birth/11531b15-6be6-4761-9190-8288e674cd52> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Ukraine> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/birth/b67fcbcd-b3eb-4767-9eb0-5369cdb36b3a>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/birth/b67fcbcd-b3eb-4767-9eb0-5369cdb36b3a/birth/time/b596d0e1-e7f7-41b4-9a38-98e53390e932> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/birth/a996bee8-1481-4d09-b6ff-c2733cad264c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/birth/a996bee8-1481-4d09-b6ff-c2733cad264c/birth/time/9b074474-b9ae-420e-bbd0-bd36c36a6e3a> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/birth/205d4a9a-9f99-46f1-9d2e-e462397bef5b/birth/time/05ae94b2-e7f9-4fa5-abda-c4359dcef883>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1919-04-05T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Lublin>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Lublin" .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/appellation/329f2599-d3d3-4c00-b392-c0315ef0dbe8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Jadwiga Grabowska-Hawrylak" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/LC%20027%20EAS%201947.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/death/6be184bb-40c2-4488-bb2f-e741185a9dd8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/death/6be184bb-40c2-4488-bb2f-e741185a9dd8/death/time/79159c5c-4d9a-4595-ac6f-7cb51f7ce91a> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Yerevan> .
+
+<http://www.researchspace.org/nation/Romania>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Romania" .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/death/3b184879-85dd-4617-a71d-f28aa5600130/death/time/a145cb81-f75d-4084-91ae-c18e98d429ea>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1962-05-06T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/birth/11531b15-6be6-4761-9190-8288e674cd52>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/birth/11531b15-6be6-4761-9190-8288e674cd52/birth/time/d230300a-cb83-4bc5-93d2-c52f5ce48556> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Yelets> .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/birth/25ee5433-9661-46ce-a228-da8ae8bf3b9d/birth/time/4d39f54d-787e-4fbc-b2a6-c3cce959281f>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1955-12-28T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/death/de24ef91-88f2-4635-bb89-fbde43b26154>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/death/de24ef91-88f2-4635-bb89-fbde43b26154/death/time/e4501bc2-feef-4038-a41f-4e4d8dd1c85d> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Neuilly-sur-Seine> .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Halina Skibniewska" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/death/61f8b467-99c5-49f3-90e9-09484f226cf0> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Halina%20Skibniewska.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/appellation/ddd545f5-bd6e-4cea-9d99-d955151de887> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/birth/a996bee8-1481-4d09-b6ff-c2733cad264c> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/appellation/e95950e5-a90f-4962-995f-99ce5f087587>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Veronika Lazarova" .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/death/1b4393bb-f864-4854-95c9-5eb5cbee93a4/death/time/87450c7b-1369-41a2-bf1b-775574a4936f>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1996-01-02T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jadwiga Piłsudska" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/death/fe9ab310-77b3-4e28-9fe7-956871c85112> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/JadwigaPi%C5%82sudska.jpeg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/appellation/43a82ae1-8bd9-4199-a622-9e885df5aef8> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/birth/c8f9ede4-9d14-4898-bfc8-b9a7d5afc535> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/death/b3d8887c-0763-4915-9bbd-eb2b34c7b351/death/time/6d7bc195-df21-4f4b-a16a-aaf21132af70>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2010-06-06T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/birth/76b3406c-8342-4e50-b59e-472d90e0ced4/birth/time/d429c216-93a3-4b77-8449-bcbde687e249>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1920-10-29T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/nation/Ukraine>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Ukraine" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/VarsaviaSanCasimiro.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/birth/c8f9ede4-9d14-4898-bfc8-b9a7d5afc535>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/birth/c8f9ede4-9d14-4898-bfc8-b9a7d5afc535/birth/time/50afd6eb-2753-453e-ab7f-80d68952baa9> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/birth/7d9a1ec0-ce8f-478b-a4fe-e1b8585f6153>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/birth/7d9a1ec0-ce8f-478b-a4fe-e1b8585f6153/birth/time/96363f5a-d472-4d83-a0aa-39e7c6b65708> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Yerevan> .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/birth/644e6b9f-71b0-4903-8643-9723b1ebce69>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/birth/644e6b9f-71b0-4903-8643-9723b1ebce69/birth/time/366b8c44-e059-4f90-ab5e-8a202eb73e22> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Razgrad> .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/appellation/43a82ae1-8bd9-4199-a622-9e885df5aef8>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Jadwiga Piłsudska" .
+
+<http://www.researchspace.org/place/Razgrad>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Razgrad" .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/death/9295e944-dc22-4ec5-b77a-fdf8c7ad7299>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/death/9295e944-dc22-4ec5-b77a-fdf8c7ad7299/death/time/14906be1-3b3f-4403-b244-2ace99665ebf> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Wroc%C5%82aw> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/%D4%B9%D5%A1%D5%B4%D5%A1%D6%80%20%D4%B9%D5%B8%D6%82%D5%B4%D5%A1%D5%B6%D5%B5%D5%A1%D5%B6.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/death/fe9ab310-77b3-4e28-9fe7-956871c85112>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/death/fe9ab310-77b3-4e28-9fe7-956871c85112/death/time/cf611aef-c2e4-4333-9785-9b6f0cae6b55> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maria Jaworska-Michałowska" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/death/f7ffa974-9cf1-47c0-aa59-e043fdb42519> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/MichalowskaMaria.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/appellation/b48d73a8-aa82-4682-b894-23776dce27c2> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/birth/25ee5433-9661-46ce-a228-da8ae8bf3b9d> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/death/51139a2c-24d2-466e-bac5-0cd7106dbcbc>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/death/51139a2c-24d2-466e-bac5-0cd7106dbcbc/death/time/8c1400ae-fcd7-4ae4-8b27-786556b2ffb1> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/JadwigaPi%C5%82sudska.jpeg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/place/Kyiv>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kyiv" .
+
+<http://www.researchspace.org/place/Warsaw>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Warsaw" .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/birth/644e6b9f-71b0-4903-8643-9723b1ebce69/birth/time/366b8c44-e059-4f90-ab5e-8a202eb73e22>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1931-07-11T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Hanna Adamczewska-Wejchert" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/death/1b4393bb-f864-4854-95c9-5eb5cbee93a4> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/WejchertowieArchitektura1977.png> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/appellation/45a3b926-e66b-443f-8310-f9cad629996c> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/birth/e96eb0d5-e25e-4260-9195-fcfa6147588c> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/place/Radom>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Radom" .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/death/881eb152-1b3b-41e1-bfed-299f332bdb29>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/death/881eb152-1b3b-41e1-bfed-299f332bdb29/death/time/527470bf-43be-419c-a8e8-9e5ccef31ba6> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Montana> .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Edith Schreiber-Aujame" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/death/de24ef91-88f2-4635-bb89-fbde43b26154> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/LC%20027%20EAS%201947.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/appellation/0718d1f5-cf64-4ad9-94fb-a7b039aab4a7> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/birth/205d4a9a-9f99-46f1-9d2e-e462397bef5b> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/appellation/ddd545f5-bd6e-4cea-9d99-d955151de887>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Halina Skibniewska" .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Jadwiga Grabowska-Hawrylak" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/death/9295e944-dc22-4ec5-b77a-fdf8c7ad7299> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/JadwigaGrabowskaHawrylakArchitektura1974.png> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/appellation/329f2599-d3d3-4c00-b392-c0315ef0dbe8> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/birth/76b3406c-8342-4e50-b59e-472d90e0ced4> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Halina%20Skibniewska.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/place/Rymanowiec>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rymanowiec" .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/appellation/86b59a76-ab5b-4415-a05f-0fa5c71b914e>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Maria Zachwatowicz" .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Veronika Lazarova" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/death/881eb152-1b3b-41e1-bfed-299f332bdb29> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Veronika%20Lazarova.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/appellation/e95950e5-a90f-4962-995f-99ce5f087587> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/birth/a9f9d75a-1733-4452-85e0-98d043bb560c> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Bulgaria> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Viktoria%20Vinarova.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/death/f7ffa974-9cf1-47c0-aa59-e043fdb42519/death/time/213a4233-127c-46f9-91d8-10b1e92ca66b>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2013-05-21T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/death/51139a2c-24d2-466e-bac5-0cd7106dbcbc/death/time/8c1400ae-fcd7-4ae4-8b27-786556b2ffb1>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1994-07-20T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Yerevan>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Yerevan" .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/birth/a996bee8-1481-4d09-b6ff-c2733cad264c/birth/time/9b074474-b9ae-420e-bbd0-bd36c36a6e3a>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1921-01-10T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/birth/c79a0912-7043-425c-9407-f126ee62fb37>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/birth/c79a0912-7043-425c-9407-f126ee62fb37/birth/time/34697bfb-62a7-4e5e-b486-2948edc26ec6> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Bucharest> .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/birth/205d4a9a-9f99-46f1-9d2e-e462397bef5b>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/birth/205d4a9a-9f99-46f1-9d2e-e462397bef5b/birth/time/05ae94b2-e7f9-4fa5-abda-c4359dcef883> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Rymanowiec> .
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Victoria Angelova" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/death/3bae1659-61d5-41b7-9dfa-658f97757d9f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Viktoria%20Vinarova.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/appellation/2c86df50-cf76-4a01-9da8-56560ce407e6> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/birth/48df0ee6-f834-495e-a5b1-e09b5d02bcd1> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Bulgaria> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/appellation/0718d1f5-cf64-4ad9-94fb-a7b039aab4a7>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Edith Schreiber-Aujame" .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/death/7ad792af-54c0-487b-99f9-e194e9a0177b>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/death/7ad792af-54c0-487b-99f9-e194e9a0177b/death/time/e4c0dd4c-c629-40e4-93df-2f5b0715aea3> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/birth/25ee5433-9661-46ce-a228-da8ae8bf3b9d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/birth/25ee5433-9661-46ce-a228-da8ae8bf3b9d/birth/time/4d39f54d-787e-4fbc-b2a6-c3cce959281f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Krak%C3%B3w> .
+
+<http://www.researchspace.org/place/Bucharest>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bucharest" .
+
+<http://www.researchspace.org/place/Plovdiv>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Plovdiv" .
+
+<http://www.researchspace.org/place/Montana>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Montana" .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/birth/49a276b8-7012-4cd6-a5dd-5ba8561e39e2>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/birth/49a276b8-7012-4cd6-a5dd-5ba8561e39e2/birth/time/c302565f-70a3-45b1-88d1-6ad84e82a1a7> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Tbilisi> .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/birth/e96eb0d5-e25e-4260-9195-fcfa6147588c/birth/time/aba27fc9-fbd3-4d92-9012-e403de7bafd8>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1920-07-29T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Yelets>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Yelets" .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/death/61f8b467-99c5-49f3-90e9-09484f226cf0/death/time/c217148f-4996-483f-af78-fb01a5af7953>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2011-04-20T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Wroc%C5%82aw>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Wrocław" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D1%80%D1%85%D1%96%D1%82%D0%B5%D0%BA%D1%82%D0%BE%D1%80%20%D0%AF%D0%B4%D0%B2%D1%96%D0%B3%D0%B0%20%D0%94%D0%BE%D0%B1%D0%B6%D0%B8%D0%BD%D1%81%D1%8C%D0%BA%D0%B0%20%281898%E2%80%941940%29.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D1%80%D1%85%D0%92%D0%B5%D1%80%D0%B0%D0%9A%D0%BE%D0%BB%D0%B0%D1%80%D0%BE%D0%B2%D0%B0.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/place/Krak%C3%B3w>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Kraków" .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/death/071b37e5-6083-4465-94f6-8a40f272dbc9>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/death/071b37e5-6083-4465-94f6-8a40f272dbc9/death/time/725d8df8-e73a-4929-bee4-120bb7891a33> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Kyiv> .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/birth/e96eb0d5-e25e-4260-9195-fcfa6147588c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/birth/e96eb0d5-e25e-4260-9195-fcfa6147588c/birth/time/aba27fc9-fbd3-4d92-9012-e403de7bafd8> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Radom> .
+
+<http://www.researchspace.org/profession/architect/>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Architect" .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Rouzan Alaverdyan" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/death/2d9fb696-2bea-4d60-88c2-ec1a357d8b09> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Rouzan%20Alaverdyan.JPG> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/appellation/adb9d49c-2e82-46e2-9835-fb10e79fd1de> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/birth/7d9a1ec0-ce8f-478b-a4fe-e1b8585f6153> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Armenia> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/place/Sofia>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Sofia" .
+
+<http://www.researchspace.org/place/Tarnawce>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tarnawce" .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/death/7ad792af-54c0-487b-99f9-e194e9a0177b/death/time/e4c0dd4c-c629-40e4-93df-2f5b0715aea3>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1940-02-01T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/birth/11531b15-6be6-4761-9190-8288e674cd52/birth/time/d230300a-cb83-4bc5-93d2-c52f5ce48556>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1935-11-17T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/death/2d9fb696-2bea-4d60-88c2-ec1a357d8b09>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/death/2d9fb696-2bea-4d60-88c2-ec1a357d8b09/death/time/81537796-5618-4c1a-91bc-901a9131ddff> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Yerevan> .
+
+<http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/death/f7ffa974-9cf1-47c0-aa59-e043fdb42519>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/32e241c4-8a3d-4ea3-9999-4d7f050e6ba5/death/f7ffa974-9cf1-47c0-aa59-e043fdb42519/death/time/213a4233-127c-46f9-91d8-10b1e92ca66b> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Krak%C3%B3w> .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/birth/b67fcbcd-b3eb-4767-9eb0-5369cdb36b3a/birth/time/b596d0e1-e7f7-41b4-9a38-98e53390e932>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1898-01-01T00:00:00"^^xsd:dateTime .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/MichalowskaMaria.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/death/9295e944-dc22-4ec5-b77a-fdf8c7ad7299/death/time/14906be1-3b3f-4403-b244-2ace99665ebf>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2018-06-05T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/appellation/45a3b926-e66b-443f-8310-f9cad629996c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Hanna Adamczewska-Wejchert" .
+
+<http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/death/1b4393bb-f864-4854-95c9-5eb5cbee93a4>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/bd7f33d7-5663-4f36-8be5-54bd7a343d4e/death/1b4393bb-f864-4854-95c9-5eb5cbee93a4/death/time/87450c7b-1369-41a2-bf1b-775574a4936f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Tychy> .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/birth/c8f9ede4-9d14-4898-bfc8-b9a7d5afc535/birth/time/50afd6eb-2753-453e-ab7f-80d68952baa9>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1920-02-28T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/birth/48df0ee6-f834-495e-a5b1-e09b5d02bcd1/birth/time/fd124f07-b4f3-4d34-946b-d51bce7f7525>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1902-11-20T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Vera Kolarova" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/death/b3d8887c-0763-4915-9bbd-eb2b34c7b351> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/%D0%90%D1%80%D1%85%D0%92%D0%B5%D1%80%D0%B0%D0%9A%D0%BE%D0%BB%D0%B0%D1%80%D0%BE%D0%B2%D0%B0.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/appellation/2e80b571-f181-4e9b-8727-2c4b8b75b6ca> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/birth/644e6b9f-71b0-4903-8643-9723b1ebce69> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Bulgaria> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/death/6be184bb-40c2-4488-bb2f-e741185a9dd8/death/time/79159c5c-4d9a-4595-ac6f-7cb51f7ce91a>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1989-11-11T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/birth/48df0ee6-f834-495e-a5b1-e09b5d02bcd1>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/birth/48df0ee6-f834-495e-a5b1-e09b5d02bcd1/birth/time/fd124f07-b4f3-4d34-946b-d51bce7f7525> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Veliko%20Tarnovo> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Rouzan%20Alaverdyan.JPG>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/death/2d9fb696-2bea-4d60-88c2-ec1a357d8b09/death/time/81537796-5618-4c1a-91bc-901a9131ddff>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2017-12-27T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tamar Tumanyan" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/death/6be184bb-40c2-4488-bb2f-e741185a9dd8> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P107_has_current_or_former_member>
+                <http://www.researchspace.org/membership/Armenian%20Union%20of%20Architects> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/%D4%B9%D5%A1%D5%B4%D5%A1%D6%80%20%D4%B9%D5%B8%D6%82%D5%B4%D5%A1%D5%B6%D5%B5%D5%A1%D5%B6.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/appellation/2f702561-c16a-4db0-b695-f1005c4db20f> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/birth/49a276b8-7012-4cd6-a5dd-5ba8561e39e2> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Armenia> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/appellation/ab1f16b2-11ad-48da-b61c-2cf69c7f0db2>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Virginia Andreescu Haret" .
+
+<http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/death/de24ef91-88f2-4635-bb89-fbde43b26154/death/time/e4501bc2-feef-4038-a41f-4e4d8dd1c85d>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1998-12-31T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Veliko%20Tarnovo>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Veliko Tarnovo" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Arh.%20Maria%20Virginia%20Andreescu%20Haret.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/place/Tbilisi>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tbilisi" .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/birth/3dc4e879-9de6-48cf-9e6e-d4de0a38aa74/birth/time/01b56e2e-babd-4d62-a05b-0cd310af0e34>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1902-03-12T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/3e81d55f-1f68-41f1-8f69-cdc99563ad72/death/fe9ab310-77b3-4e28-9fe7-956871c85112/death/time/cf611aef-c2e4-4333-9785-9b6f0cae6b55>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2014-11-16T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Virginia Andreescu Haret" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/death/3b184879-85dd-4617-a71d-f28aa5600130> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/Arh.%20Maria%20Virginia%20Andreescu%20Haret.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/appellation/ab1f16b2-11ad-48da-b61c-2cf69c7f0db2> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/birth/c79a0912-7043-425c-9407-f126ee62fb37> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Romania> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/death/61f8b467-99c5-49f3-90e9-09484f226cf0>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/death/61f8b467-99c5-49f3-90e9-09484f226cf0/death/time/c217148f-4996-483f-af78-fb01a5af7953> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Warsaw> .
+
+<http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/death/3b184879-85dd-4617-a71d-f28aa5600130>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/death/3b184879-85dd-4617-a71d-f28aa5600130/death/time/a145cb81-f75d-4084-91ae-c18e98d429ea> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Bucharest> .
+
+<http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E21_Person> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Maria Zachwatowicz" ;
+        <http://www.cidoc-crm.org/cidoc-crm/P100i_died_in>
+                <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/death/51139a2c-24d2-466e-bac5-0cd7106dbcbc> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P138i_has_representation>
+                <http://commons.wikimedia.org/wiki/Special:FilePath/VarsaviaSanCasimiro.jpg> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P1_is_identified_by>
+                <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/appellation/86b59a76-ab5b-4415-a05f-0fa5c71b914e> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P98i_was_born>
+                <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/birth/3dc4e879-9de6-48cf-9e6e-d4de0a38aa74> ;
+        <http://www.researchspace.org/ontology/PX_nationality>
+                <http://www.researchspace.org/nation/Poland> ;
+        <http://www.researchspace.org/ontology/PX_profession>
+                <http://www.researchspace.org/profession/architect/> .
+
+<http://www.researchspace.org/membership/Armenian%20Union%20of%20Architects>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Armenian Union of Architects" .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/birth/a9f9d75a-1733-4452-85e0-98d043bb560c>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/birth/a9f9d75a-1733-4452-85e0-98d043bb560c/birth/time/3d82e164-e4c1-4d1f-a4ec-837ea7fe987b> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Sofia> .
+
+<http://www.researchspace.org/nation/Bulgaria>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Bulgaria" .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/death/071b37e5-6083-4465-94f6-8a40f272dbc9/death/time/725d8df8-e73a-4929-bee4-120bb7891a33>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2019-07-12T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/birth/7d9a1ec0-ce8f-478b-a4fe-e1b8585f6153/birth/time/96363f5a-d472-4d83-a0aa-39e7c6b65708>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1946-01-25T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/appellation/b9dfc698-2df7-474a-a5bc-a02006cbf28d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Jadwiga Dobrzyńska" .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/birth/a9f9d75a-1733-4452-85e0-98d043bb560c/birth/time/3d82e164-e4c1-4d1f-a4ec-837ea7fe987b>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "1981-02-16T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/place/Neuilly-sur-Seine>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Neuilly-sur-Seine" .
+
+<http://www.researchspace.org/nation/Poland>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Poland" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/Veronika%20Lazarova.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/JadwigaGrabowskaHawrylakArchitektura1974.png>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/death/881eb152-1b3b-41e1-bfed-299f332bdb29/death/time/527470bf-43be-419c-a8e8-9e5ccef31ba6>
+        <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
+                "2011-10-17T00:00:00"^^xsd:dateTime .
+
+<http://www.researchspace.org/architects/cf83d341-4db5-4be8-ac3a-1c4c0dc072fe/appellation/0e0b4325-6b53-4c14-85be-8ea3068c079d>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Tamara Tselikovska" .
+
+<http://www.researchspace.org/place/Tychy>
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Tychy" .
+
+<http://www.researchspace.org/nation/Armenia>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E74_Group> ;
+        <http://www.w3.org/2000/01/rdf-schema#label>
+                "Armenia" .
+
+<http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/appellation/2e80b571-f181-4e9b-8727-2c4b8b75b6ca>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Vera Kolarova" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/%D0%A6%D0%B5%D0%BB%D1%96%D0%BA%D0%BE%D0%B2%D1%81%D1%8C%D0%BA%D0%B0%20%D0%A2%D0%B0%D0%BC%D0%B0%D1%80%D0%B0%20%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D1%96%D1%97%D0%B2%D0%BD%D0%B0%201996.jpg>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/appellation/2f702561-c16a-4db0-b695-f1005c4db20f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Tamar Tumanyan" .
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/death/3bae1659-61d5-41b7-9dfa-658f97757d9f>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/death/3bae1659-61d5-41b7-9dfa-658f97757d9f/death/time/f1583206-84fb-4319-837e-a90d8c995401> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Sofia> .
+
+<http://www.researchspace.org/architects/92458158-3aa7-41d7-9170-b09aa6278571/appellation/2c86df50-cf76-4a01-9da8-56560ce407e6>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Victoria Angelova" .
+
+<http://commons.wikimedia.org/wiki/Special:FilePath/WejchertowieArchitektura1977.png>
+        a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
+
+<http://www.researchspace.org/architects/fc84f233-cf6a-4d4b-89e1-c6b0adb49002/appellation/adb9d49c-2e82-46e2-9835-fb10e79fd1de>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P190_has_symbolic_content>
+                "Rouzan Alaverdyan" .
+
+<http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/birth/76b3406c-8342-4e50-b59e-472d90e0ced4>
+        a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P4_has_time-span>
+                <http://www.researchspace.org/architects/0d0f1ef6-832a-4649-a9f2-d94ecfc8bb8b/birth/76b3406c-8342-4e50-b59e-472d90e0ced4/birth/time/d429c216-93a3-4b77-8449-bcbde687e249> ;
+        <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
+                <http://www.researchspace.org/place/Tarnawce> .
+}
