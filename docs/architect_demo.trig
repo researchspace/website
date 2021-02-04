@@ -22,7 +22,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/birth/3dc4e879-9de6-48cf-9e6e-d4de0a38aa74>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
@@ -66,7 +66,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Ukraine> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/8fae9402-d53b-4db7-badf-bc8ccca21d5a/birth/b67fcbcd-b3eb-4767-9eb0-5369cdb36b3a>
         a       <http://www.cidoc-crm.org/cidoc-crm/E67_Birth> ;
@@ -147,7 +147,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/c3b1eb72-49a9-4c26-b4c1-a218c7cbf4fe/appellation/e95950e5-a90f-4962-995f-99ce5f087587>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
@@ -173,7 +173,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/4d7df5ec-8be5-4bcc-9b4c-73cdd2e04070/death/b3d8887c-0763-4915-9bbd-eb2b34c7b351/death/time/6d7bc195-df21-4f4b-a16a-aaf21132af70>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
@@ -253,7 +253,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/7278933d-710b-4249-9ec5-aaeab168aa9b/death/51139a2c-24d2-466e-bac5-0cd7106dbcbc>
         a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
@@ -292,7 +292,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/place/Radom>
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -320,7 +320,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/appellation/ddd545f5-bd6e-4cea-9d99-d955151de887>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
@@ -342,7 +342,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://commons.wikimedia.org/wiki/Special:FilePath/Halina%20Skibniewska.jpg>
         a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
@@ -371,7 +371,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Bulgaria> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://commons.wikimedia.org/wiki/Special:FilePath/Viktoria%20Vinarova.jpg>
         a       <http://www.researchspace.org/ontology/EX_Digital_Image> .
@@ -421,7 +421,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Bulgaria> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/c3116c63-494d-47dc-9134-86400e5850fc/appellation/0718d1f5-cf64-4ad9-94fb-a7b039aab4a7>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
@@ -501,7 +501,7 @@
         <http://www.cidoc-crm.org/cidoc-crm/P7_took_place_at>
                 <http://www.researchspace.org/place/Radom> .
 
-<http://www.researchspace.org/profession/architect/>
+<http://www.researchspace.org/profession/architect>
         <http://www.w3.org/2000/01/rdf-schema#label>
                 "Architect" .
 
@@ -520,7 +520,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Armenia> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/place/Sofia>
         <http://www.w3.org/2000/01/rdf-schema#label>
@@ -598,7 +598,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Bulgaria> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/ff780fd3-3637-450f-8f4e-2eb9e20ec0b2/death/6be184bb-40c2-4488-bb2f-e741185a9dd8/death/time/79159c5c-4d9a-4595-ac6f-7cb51f7ce91a>
         <http://www.cidoc-crm.org/cidoc-crm/P82_at_some_time_within>
@@ -635,7 +635,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Armenia> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/9883376d-cd44-472a-badf-ee8835f6c440/appellation/ab1f16b2-11ad-48da-b61c-2cf69c7f0db2>
         a       <http://www.cidoc-crm.org/cidoc-crm/E41_Appellation> ;
@@ -680,7 +680,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Romania> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/architects/8e4abfa0-22d9-41c2-97a6-3249b560d758/death/61f8b467-99c5-49f3-90e9-09484f226cf0>
         a       <http://www.cidoc-crm.org/cidoc-crm/E69_Death> ;
@@ -711,7 +711,7 @@
         <http://www.researchspace.org/ontology/PX_nationality>
                 <http://www.researchspace.org/nation/Poland> ;
         <http://www.researchspace.org/ontology/PX_profession>
-                <http://www.researchspace.org/profession/architect/> .
+                <http://www.researchspace.org/profession/architect> .
 
 <http://www.researchspace.org/membership/Armenian%20Union%20of%20Architects>
         <http://www.w3.org/2000/01/rdf-schema#label>
