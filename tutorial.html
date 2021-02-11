@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<style>
+
+  img {
+
+  margin-bottom:30px;
+  margin-top:30px;
+  border:1px solid black;
+  text-align:center;
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  }
+
+html, body {
+  height: 99%;
+  margin-bottom: -8px;
+  box-sizing: border-box;
+}
+.content {
+
+
+
+
+}
+
+.page {
+  max-height: 100%;
+  overflow: auto;
+}
+.column1{
+  float: left;
+  width: 25%;
+    position: relative;
+
+}
+.column2{
+  float: left;
+  width: 75%;
+  position: relative;
+}
+.header, .footer {
+  height: 40px;
+  background-color: white;
+  position: fixed;
+  left: 33%;
+  width:67%
+}
+.header {
+  top: 0;
+}
+.footer {
+  bottom: 0;
+}
+.header {
+  top: 0;
+}
+.footer {
+  bottom: 0;
+}
+
+</style>
+
+
+
+
+
+  <div class="page column1">
+
+
+
+        <h1 class="page__ToC-title">Table of content</h1>
+
+        <a class="" href="#intro">
+
+          <div>Introduction</div>
+        </a>
+
+        <a class="page__ToC-item" href="#add">
+
+          <div>Adding Data</div>
+        </a>
+
+          <a class="page__ToC-item" href="#verify">
+
+          <div>Verify Data</div>
+        </a>
+
+          <a class="page__ToC-item" href="#images">
+
+          <div>Add Images</div>
+        </a>
+        <a class="page__ToC-item" href="#facets">
+
+          <div>Add Search facets</div>
+        </a>
+          <a class="page__ToC-item" href="#form">
+
+          <div>Create a Form</div>
+        </a>
+
+           <a class="page__ToC-item" href="#interest">
+
+          <div>Add something more inetresting!</div>
+        </a>
+
+        <!--     <a class="page__ToC-item" href="#">
+          <div class="page__ToC-item-number">8</div>
+          <div><semantic-link title="Documentation" iri='[[resolvePrefix "rsp:SystemDocumentation"]]'>Home</semantic-link></div>
+        </a>-->
+
+
+
+
+    </div>
+
+  <div class="page column2">
+      <div class="header"></div>
+
+      <div class="content">
+
+        <h1 class="page__content-mainTitle">Tutorial</h1>
+
+            <section id="intro">
+              <h1 class="page__content-sectionTitle">Introduction</h1>
+              <div>
+                <p>We recommend that you do this tutorial after installing ResearchSpace. It will take you through some of the basic configuration areas of the system and give you a better sense of how the system works and manages Linked Data. Some elements may change as we add new user interfaces for configuration, but it is nevertheless useful to understand how the template system works and how it is manipulated.</p><p>In this tutorial you will;<p>
+                <ol>
+                  <li>Add data</li>
+                  <li>Verify the data</li>
+                  <li>Add a search facet</li>
+                  <li>Add some Images to the data</li>
+                  <li>Create an input form to add more data</li>
+                  <li>Add more contextual information and create a Semantic network</li>
+                </ol>
+
+                </div>
+                  </section>
+
+     <section id="add">
+              <h1 class="page__content-sectionTitle">Adding Data</h1>
+              <div>
+                <p>ResearchSpace can add existing data in different ways. However, it has two smple ways of getting new data into the system. In the Administration area, accessed by clicking the COG symbol on the top bar, there is a  Data Import utility that supports file import, either from a local disk or across a web connection (http or ftp)</p>.
+                <p>Some test data has been created using Wikidata. While wikidata records themselves provide only basic information and facts, but it provides a basic starting point for this tutorial. The data has already been created and saved on the researchspace web site at the address http://www.researchspace.org/docs/architectse.trig. This can be directly used for the tutorial, but if you want to know how the data was generated from the Wiidata query service (https://query.wikidata.org/) the query that constructed is available here <b><semantic-link title="Documentation" iri='[[resolvePrefix "rsp:RSTutorialQuery"]]'>Tutorial Wikidata query</semantic-link></b></p>
+                <p>
+                <h2><b>Loading the data File</b></h2>
+                <p>Either download the file from the web site and store it on your local ResearchSpace file system. If you do this then choose the File Upload Tab, click on the upload panel and find the file or drag it in from the a file explorer. In the advanced option click the "Keep source NamedGraphs" option</p>
+                <p>Otherwise, click the Load by HTTP/FTP/File URL option and enter the URL to load the file from the Internet (using the keep source NamedGraphs option again)
+
+               <h2><b>In the Data Import utility</b></h2>
+                <p><img  src="./images/tutorial/1.jpg"/></p>
+                <p><b>The file address is https://www.researchspace.org/docs/architect_demo.trig</b><p>
+                <p>When you click load the utility should confirm that file is loaded</p>
+       </div>
+        </section>
+
+
+                  <section id="verify">
+              <h1 class="page__content-sectionTitle">Verifying the Data</h1>
+              <div>
+                  <p>There are a number of different ways of viewing the data. To provide a quick tour of the components here are a few</p>
+                  <h3>Search System</h3>
+                  <p>Click on the magnifying glass icon on the top bar. This opens the search system. Here the entities in the system are displayed.</p>
+                	<p>The Search template is called <pre><code>https://yourdomain/resource/rsp:SearchContent</code></pre></p>
+                    <p>When the page has loaded click edit page at the top right of the screen</p>
+                    <p>In the template a default search will be configured between the <bs-tab> elements</p>
+
+                  <p><img  src="./images/tutorial/2.jpg"/></p>
+
+                   <h2><b>Change the following parameters</b></h2>
+
+                    <p>At 1. Change the event-key value to 'Architect-Search' and title to 'Architects'. The first parameter differentiates the tab and the second provides a title on the page</p>
+                    <p> At 2. change the domain to <code>&lt;http://www.cidoc-crm.org/cidoc-crm/E21_Person&gt;</code> </p>
+
+                    <p> At 3. Also change the class using the crm prefic to crm:E21_Person . and add the filtering statement shown which only selects architects</p>
+
+                    <p> At 4. Also change the domain and the  filtering statement</p>
+                    <p>This tab will only search people who are architects architect <p>
+
+                     <p><img  src="./images/tutorial/3.jpg"/></p>
+
+                    <P>This could have been achived by filtering the main search - but this is how new search tabs are created</p>
+                    <p>After saving the template - click on the search glass at the top right of the screen
+
+                    <p>The frist tab will by default bring back all entities with the Domain crm:E1_CRM_Entity</p>
+                    <p><img width=1000px src="./images/tutorial/4.jpg"/></p>
+
+                    <p>The second tab is the new architect tab with only 15 results</p>
+                     <p><img width=1000px src="./images/tutorial/5.jpg"/></p>
+                         </div>
+                    </section>
+
+
+
+                   <section id="facets">
+              <h1 class="page__content-sectionTitle">Add Search Facets</h1>
+              <div>
+
+
+
+
+
+                    <P>If you look at the filters some default patterns have already been applied. These are the ontology pattens created automatically but they only cover one domain and range relation. In other words they only cover direct connections between Person and another entity. The PX_nationality pattern provides a result, because it directly relates to a Group with a label. The birth and death filters only provide the UUID of the Birth and Death entities which are intermediate nodes to other entities of interest, like place of birth and the date of birth. In order to see past these entities another pattern is needed that creates a path that performs the two jumps between Person and Place (with the birth event in the middle). The system automatically provides labels for entities.</p>
+
+
+                        <p><img width=1000px src="./images/tutorial/6.jpg"/></p>
+
+                    <h2><b>Let's create a pattern with the path we need</b></h2>
+
+                    <p> The birth data relates to a place of birth. The pattern must go from  Person > Birth > Place to reveal the place of birth. </p>
+
+                    <p> Use the cog at the top left to go to the Admin tools and choose the Knowledge Patterns options from the panels.</p>
+
+                    <p>Find the "was_born" pattern and open it up</p>
+
+                    <p><img width=1000px src="./images/tutorial/7.jpg"/></p>
+
+
+                    <P>In the details there is an Identifier with URI address with a "copy" icon next to it<p>
+
+                        <p><img width=1000px src="./images/tutorial/8.jpg"/></p>
+
+                    <p>Copy the uri and then click duplicate<p>
+
+                     <p><img width=1000px src="./images/tutorial/9.jpg"/></p>
+
+
+                      <p>Replace the URI with a new one which makes sense for your system. All IRI's must be unique.</p>
+
+
+                       <p><img width=1000px src="./images/tutorial/10.jpg"/></p>
+
+                			<p>A new KP is created with the same details</p>
+
+                    <p><img width=1000px src="./images/tutorial/11.jpg"/></p>
+
+                      <p>Change the range to be E53 Place - so the pattern is between Person and Place. Only the select pattern needs to be changed (Search only uses the select pattern) adding another line to change the positio of ?value to place rather than the birth. Birth is just replaced by another variable. The system uses the ?value variable as its reference.<p>
+
+
+                    <p><img width=1000px src="./images/tutorial/12.jpg"/></p>
+
+                      <p>In the results the new filter can be used against the architect search</p>
+
+                     <p><img width=1000px src="./images/tutorial/13.jpg"/></p>
+
+                </div>
+                  </section>
+
+
+
+          <section id="form">
+              <h1 class="page__content-sectionTitle">Create a Form</h1>
+                     <div>
+                     <h2><b>Introduction</b></h2>
+                       <P>ResearchSpace has an an Authority and Entity manager system for manging Semantic Forms and comes with a number of default forms which can get you started and allow you to add more patterns</p>
+                       <p>Stat by using the configurations button on the Dashboard</p>
+
+                       <p><img width=1000px src="./images/tutorial/14.jpg"/></p>
+                       <p>Then choose Configuration Manager</p>
+
+                       <p><img width=1000px src="./images/tutorial/15.jpg"/></p>
+
+                       <p>In Configuration manager you can already see some profiles for various entities including Person</p>
+
+                        <p><img width=1000px src="./images/tutorial/16.jpg"/></p>
+                       <p>We can create a new profile called Architects</p>
+
+                       <p><img  src="./images/tutorial/17.jpg"/></p>
+
+
+                       <p>Note that we haven't used a membership property because this will be an entity form not a more generic authority form</p>
+                       <p>The P2 type which is alo in the data provided, ensures that only records with this type are included</p>
+                       <p>The form IRI create a new template space</p>
+
+                      <p>Save the profile and then go back to the person profile and click the yellow "Edit Form" button</p>
+                       <p>Copy the entire template content and return to the Architect profile</p>
+                       <p>Use the "Edit Form" form button to open the empty architects form and paste the person profile content into the template and save</p>
+                       <p> We can see the results in the Entity Manager if you go back to the configurations panel and choose Entity Manager</p>
+
+
+
+                       <p><img  src="./images/tutorial/18.jpg"/></p>
+
+                       <p>Click on this Entity Profile</p>
+                       <P>Here you can see the list of architects that you imported into the system</P>
+                       <p>Have a look at the details of one of the records by selecting it with the pencil icon<p>
+                       <p>You will see that some of the person profile patterns fit the data and some do not resulting in blank values<p>
+
+
+                         <p><img  src="./images/tutorial/19.jpg"/></p>
+
+                       <p>We need to change the form - Use the cog sysmbol at the top of the screen to go to the Admin panel and click on Knowledge Patterns Catalog</p>
+                       <p>Search for some time within. The person profile uses a date range, but the Architect data just as a single date on which the person was born</p>
+
+
+                         <p><img  src="./images/tutorial/20.jpg"/></p>
+
+
+                       <p>Go into the knowledge patern and as before, copy the IRI then press Duplicate and add you own IRI.</p>
+
+                          <p><img  src="./images/tutorial/21.jpg"/></p>
+
+                   <P>Change the data type to date and save the new Knowledge Pattern. Copy the IRI using the copy icon next to it and then go back to the Authority Manager</p>
+                     <p><img  src="./images/tutorial/22.jpg"/></p>
+
+
+                       <p>Add this new pattern to the form by removing the old patterns for dates in the Birth composite of the form and replacing it with the new pattern</p>
+
+                       <h3>Before</h3>
+
+
+                        <p><img  src="./images/tutorial/22.jpg"/></p>
+
+                       <h3>After</h3>
+                        <p><img  src="./images/tutorial/23.jpg"/></p>
+
+`
+                       <p>Save the form and then head back to the Entity manager and look at the change</p>
+
+                       <p><img  src="./images/tutorial/24.jpg"/></p>
+
+                       <p>You can now use the same process to add whatever fields you wish.</p>
+
+                       <p>For example we can add an image field.</p>
+
+                     </div>
+          </section>
+
+                       	<section id="images">
+              <h1 class="page__content-sectionTitle">Add the Images</h1>
+              <div>
+
+                    <P>The images for these architects is available at <a href="https://www.researchspace.org/docs/architects_images.zip">https://www.researchspace.org/docs/architects_images.zip</a>. Download them and have them ready on the Desktop </p>
+                  	 <p><img src="./images/tutorial/25.jpg"/></p>
+
+
+
+                       <p>ResearchSpace has an existing template for images which can be used for upload, or drag and drop within the system</p>
+
+<mp-code-block><![CDATA[
+
+
+<semantic-form-drag-and-drop-input for='image_representation' label="Display Image"  nested-form-template='{{> forms:Image nested=true editable=true}}' placeholder="Select Image"></semantic-form-drag-and-drop-input>
+
+]]></mp-code-block>
+
+
+<P>Copy this code into the form at the place illustrated and add the pattern to the fields at the top of the form. Make sure that it isnt placed within a composite section<p>
+
+
+
+
+    <p><img  src="./images/tutorial/26.jpg"/></p>
+
+
+  <p>Now go to the entity editor, open up architects, choose a record and click in the drag and drop area to get a file explorer to add an image</p>
+
+      <p><img  src="./images/tutorial/27.jpg"/></p>
+
+  <p>You can drag and drop - or click to open up the file manager.</p>
+
+    <p><img  src="./images/tutorial/28.jpg"/></p>
+
+                       </div>
+                         </section>
+
+                       		 <section id="interest">
+              <h1 class="page__content-sectionTitle">Add Something Interesting</h1>
+                     <div>
+
+                      <p> to be added</p>
+
+
+                       </div>
+                     </section>
+
+          	</div>
+
+  </div>
+<div class="footer"></div>
+</div>
+
+
+
+</body>
+</html>
